@@ -1,7 +1,7 @@
 import json
 import random
 
-OUTPUT_FILE = "data\marketing\marketing_conversations.jsonl"
+OUTPUT_FILE = "data\marketing_bot\marketing_conversations.jsonl"
 
 # -------------------------
 # CORE QUESTION BANKS

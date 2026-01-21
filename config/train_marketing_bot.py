@@ -5,7 +5,9 @@ out_dir = 'out-marketing-bot'
 eval_interval = 200
 log_interval = 1
 eval_iters = 200
-wandb_log = True
+always_save_checkpoint = True
+
+wandb_log = False
 wandb_project = 'marketing-bot'
 wandb_run_name = 'marketing-gpt-' + str(time.time())
 # Data
@@ -29,4 +31,4 @@ decay_lr = True
 warmup_iters = 100
 # Hardware
 device = 'cpu'  # or 'cuda'
-compile = True
+compile = False

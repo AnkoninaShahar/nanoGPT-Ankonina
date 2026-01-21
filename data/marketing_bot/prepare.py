@@ -4,7 +4,7 @@ import json
 import numpy as np
 import tiktoken
 # Load marketing data
-with open('data\marketing\marketing_conversations.jsonl', 'r', encoding='utf-8') as f:
+with open('data\marketing_bot\marketing_conversations.jsonl', 'r', encoding='utf-8') as f:
     conversations = [json.loads(line) for line in f]
 # Choose tokenizer
 enc = tiktoken.get_encoding("gpt2")
