@@ -1,7 +1,7 @@
 # config/train_marketing_bot_small.py
 import time
 
-out_dir = 'out-marketing-bot-small'
+out_dir = 'out-marketing-bot'
 eval_interval = 100
 log_interval = 10
 eval_iters = 50
